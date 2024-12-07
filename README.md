@@ -10,15 +10,19 @@ This project is focused on converting Taiwanese legal PDF documents into structu
 ## Installation
 
 1. **Python 3.x**: Ensure you have Python 3.x installed on your system.
-2. **Dependencies**: Install the required dependencies using `pip`:
+2. **PyPDF2**: Ensure you have PyPDF2 installed on your system.
 
 ```bash
 pip install PyPDF2
-
+```
 ## Run Script
 ```bash
 python TaiwanLexParse.py doc/passage --input_folder --output_folder
+```
 
+## Applications
+1. Retrieval-Augmented Generation (RAG): Use the structured legal data to enhance question-answering systems by retrieving relevant legal passages and using them to generate accurate and context-aware answers.
+2. Training Large Language Models (LLMs): Fine-tune LLMs on the structured legal data to improve their performance on legal tasks, such as contract analysis, compliance monitoring, and legal document summarization.
 
 
 
